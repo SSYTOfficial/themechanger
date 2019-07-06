@@ -13,5 +13,5 @@ ext/ssyt -> themechanger
 # Changes
 - [x] Update Files and Folders
 - [x] Create extension
-- [] Push my commits to GitHub
-- [] Open a pull request
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
