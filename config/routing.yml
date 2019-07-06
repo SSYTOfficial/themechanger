@@ -1,0 +1,3 @@
+ssyt_themechanger_controller:
+    path: /demo/{name}
+    defaults: { _controller: ssyt.themechanger.controller:handle }

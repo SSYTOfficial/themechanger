@@ -43,7 +43,7 @@ class main
 	* @param string		$name
 	* @return \Symfony\Component\HttpFoundation\Response A Symfony Response object
 	*/
-	public function handle()
+	public function handle($name)
 	{
 		$l_message = !$this->config['ssyt_themechanger'] ? 'DEMO_HELLO' : 'DEMO_GOODBYE';
 		$this->template->assign_var('DEMO_MESSAGE', $this->user->lang($l_message, $name));
