@@ -1,0 +1,28 @@
+{
+	"name": "ssyt/themechanger",
+	"type": "phpbb-extension",
+	"description": "Theme Changer Module",
+	"homepage": "https://github.com/SSYTOfficial/themechanger",
+	"version": "1.0.0",
+	"time": "2019-06-07",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "Ionut Costin",
+			"email": "ionuzcostin@gmail.com",
+			"homepage": "https://github.com/SSYTOfficial/",
+			"role": "Extension Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Theme Changer Module",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0-RC2,<3.2@dev"
+		}
+	}
+}

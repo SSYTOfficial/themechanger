@@ -1,0 +1,15 @@
+services:
+    ssyt.themechangr.controller:
+        class: ssyt\themechanger\controller\main
+        arguments:
+            - '@config'
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+    acme.demo.listener:
+        class: ssyt\themechanger\event\main_listener
+        arguments:
+            - '@controller.helper'
+            - '@template'
+        tags:
+            - { name: event.listener }
