@@ -5,7 +5,7 @@
 *
 */
 
-namespace acme\demo\acp;
+namespace ssyt\themechanger\acp;
 
 class main_module
 {

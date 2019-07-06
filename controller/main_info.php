@@ -5,7 +5,7 @@
 *
 */
 
-namespace acme\demo\controller;
+namespace ssyt\themechanger\controller;
 
 class main
 {
