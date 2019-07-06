@@ -1,12 +1,12 @@
 services:
-    ssyt.themechangr.controller:
+    ssyt.themechanger.controller:
         class: ssyt\themechanger\controller\main
         arguments:
             - '@config'
             - '@controller.helper'
             - '@template'
             - '@user'
-    acme.demo.listener:
+    ssyt.themechanger.listener:
         class: ssyt\themechanger\event\main_listener
         arguments:
             - '@controller.helper'

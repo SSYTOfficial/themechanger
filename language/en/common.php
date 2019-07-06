@@ -22,6 +22,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_MOD_TITLE'			    => 'Theme Changer',
 	'ACP_MOD'					=> 'Settings',
+	'ACP_MOD_GROUPS'			=> 'Groups',
 	'ACP_MOD_GOODBYE'			=> 'Activate Module?',
 	'ACP_MOD_SETTING_SAVED'	    => 'Settings have been saved successfully!',
 ));

@@ -20,6 +20,12 @@ class main_info
 					'auth'	=> 'ext_ssyt/themechanger && acl_a_board',
 					'cat'	=> array('ACP_MOD_TITLE')
 				),
+
+				'groups' 	=> array(
+					'title'	=> 'ACP_MOD_GROUPS',
+					'auth'	=> 'ext_ssyt/themechanger && acl_a_board',
+					'cat'	=> array('ACP_MOD_TITLE')
+				)
 			),
 		);
 	}
