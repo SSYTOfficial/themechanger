@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/SSYTOfficial/ModernBB.svg?token=zk7FtRuXafC2buyjeVBJ&branch=master)](https://travis-ci.com/SSYTOfficial/ModernBB)
+
 # phpBB Theme Changer Module
 PhpBB Theme Changer Extension
 
